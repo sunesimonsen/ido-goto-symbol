@@ -42,3 +42,5 @@
         (goto-char (overlay-start position)))
        (t
         (goto-char position))))))
+
+(provide 'ido-goto-symbol)
