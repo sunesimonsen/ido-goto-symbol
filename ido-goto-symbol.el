@@ -1,7 +1,7 @@
 (require 'thingatpt)
 (require 'imenu)
 
-(defun goto-symbol-at-point ()
+(defun ido-goto-symbol-at-point ()
   "Will navigate to the symbol at the current point of the cursor"
   (interactive)
   (ido-goto-symbol (thing-at-point 'symbol)))
